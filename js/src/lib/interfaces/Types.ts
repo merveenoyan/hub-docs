@@ -621,6 +621,16 @@ export const PIPELINE_DATA = ensureRecordOfPipelines({
 		hideInModels:   true,
 		hideInDatasets: true,
 	},
+	"mask-generation": {
+		name:     "Mask Generation",
+		modality: "cv",
+		color:    "indigo",
+	},
+	"zero-shot-object-detection": {
+		name:     "Zero-Shot Object Detection",
+		modality: "cv",
+		color:    "green",
+	},
 });
 
 export type PipelineType = keyof typeof PIPELINE_DATA;
